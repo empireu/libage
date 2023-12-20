@@ -16,7 +16,7 @@ repositories {
 
 plugins {
     java
-    kotlin("jvm") version "1.6.10"
+    kotlin("jvm") version "1.9.21"
     jacoco
     idea
     id("org.jetbrains.dokka") version "1.6.10"
@@ -24,7 +24,7 @@ plugins {
 }
 
 dependencies {
-    implementation("org.jetbrains.kotlin", "kotlin-stdlib", "1.6.10")
+    implementation("org.jetbrains.kotlin", "kotlin-stdlib", "1.9.21")
     implementation("org.apache.commons", "commons-math3", "3.6.1")
     implementation("org.jetbrains:annotations:23.0.0")
 
